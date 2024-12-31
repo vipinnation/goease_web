@@ -28,9 +28,9 @@ const FooterComponent = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-green-400">
-                  FAQs
-                </a>
+                <Link to="/delete" className="hover:text-green-400">
+                  Request to Delete Account
+                </Link>
               </li>
               <li>
                 <Link to="/policy" className="hover:text-green-400">

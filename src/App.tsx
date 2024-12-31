@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/policy" element={<PolicyPage />} />
-        <Route path="/reqeust-delete" element={<RequestDeleteData />} />
+        <Route path="/delete" element={<RequestDeleteData />} />
       </Routes>
     </>
   );
