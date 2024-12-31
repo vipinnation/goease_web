@@ -8,7 +8,7 @@ const FooterComponent = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <p>Email: goeaseofficial2024@gmail.com</p>
-            <p>Phone: 8794375190</p>
+            <p>Phone: 9612508691</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
