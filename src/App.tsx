@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router";
+import { Route, Routes } from "react-router-dom";
 import Home from "./pages/home.page";
 import PolicyPage from "./pages/policy.page";
 import RequestDeleteData from "./pages/request-delete.page";
