@@ -1,7 +1,13 @@
 import FooterComponent from "@/components/footer.component";
 import { Header } from "@/components/ui/header.component";
+import { useEffect } from "react";
 
 const RequestDeleteData = () => {
+
+   useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+  
   return (
     <div>
       <Header />

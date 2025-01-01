@@ -1,11 +1,16 @@
 import FooterComponent from "@/components/footer.component";
 import { Header } from "@/components/ui/header.component";
+import { useEffect } from "react";
 
 const PolicyPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-white text-gray-800">
       <Header />
-      <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg p-8">
+      <div className="max-w-5xl mx-auto bg-gray-100 shadow-md rounded-lg p-8 mt-12 mb-8">
         <h1 className="text-4xl font-bold text-gray-800 mb-6">
           Privacy Policy
         </h1>
