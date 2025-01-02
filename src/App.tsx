@@ -8,7 +8,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/policy" element={<PolicyPage />} />
+        <Route path="/privacy-policy" element={<PolicyPage />} />
         <Route path="/delete" element={<RequestDeleteData />} />
       </Routes>
     </>
