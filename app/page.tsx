@@ -1,14 +1,10 @@
-import FooterComponent from "@/components/footer.component";
 import { Button } from "@/components/ui/button";
-import { Header } from "@/components/ui/header.component";
 import { MapPin, QrCode, Bike, Download, User } from "lucide-react";
-import AppIcon from '@/assets/app_icon.png'
+import AppIcon from "@/assets/app_icon.png";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-gray-800">
-      <Header />
-      {/* Hero Section */}
+    <>
       <section className="relative min-h-[calc(100vh-80px)] pt-20 flex items-center justify-center bg-green-50">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
           <div className="flex flex-col items-center md:items-start w-full md:w-1/2 justify-center">
@@ -28,7 +24,7 @@ export default function Home() {
           </div>
           <div className="w-full md:w-1/2 mt-8 md:mt-0">
             <img
-              src={AppIcon}
+              src={AppIcon.src}
               alt="Person riding a GoEase bike"
               width={400}
               height={400}
@@ -142,9 +138,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <FooterComponent />
-    </div>
+    </>
   );
 }
 

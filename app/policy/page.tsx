@@ -1,5 +1,4 @@
-import FooterComponent from "@/components/footer.component";
-import { Header } from "@/components/ui/header.component";
+"use client";
 import { useEffect } from "react";
 
 const PolicyPage = () => {
@@ -9,7 +8,6 @@ const PolicyPage = () => {
 
   return (
     <div className="min-h-screen bg-white text-gray-800">
-      <Header />
       <div className="max-w-5xl mx-auto bg-gray-100 shadow-md rounded-lg p-8 mt-12 mb-8">
         <h1 className="text-4xl font-bold text-gray-800 mb-6">
           Privacy Policy
@@ -22,8 +20,8 @@ const PolicyPage = () => {
           <strong>GO-EASE</strong> is committed to protecting and respecting
           your privacy. This Privacy Policy explains how we collect, use,
           disclose, and safeguard your personal data when you use our
-          two-wheeler sharing and rental services (the "Service"), through our
-          mobile application or website (the "App").
+          two-wheeler sharing and rental services (the &quot;Service&quot;), through our
+          mobile application or website (the &quot;App&quot;).
         </p>
         <p className="text-gray-600 mb-6">
           By accessing or using our Service, you agree to the collection and use
@@ -180,7 +178,6 @@ const PolicyPage = () => {
           This Privacy Policy was last updated on <strong>25/12/2024</strong>.
         </p>
       </div>
-      <FooterComponent />
     </div>
   );
 };

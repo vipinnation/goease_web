@@ -1,16 +1,13 @@
-import FooterComponent from "@/components/footer.component";
-import { Header } from "@/components/ui/header.component";
+"use client";
 import { useEffect } from "react";
 
 const RequestDeleteData = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-   useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-  
   return (
     <div>
-      <Header />
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold mb-4">Request to Delete Data</h1>
         <p className="text-gray-700 mb-4">
@@ -77,7 +74,6 @@ const RequestDeleteData = () => {
           </div>
         </form>
       </div>
-      <FooterComponent />
     </div>
   );
 };

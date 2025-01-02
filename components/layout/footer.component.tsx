@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import Link from "next/link";
 
 const FooterComponent = () => {
   return (
@@ -28,17 +28,17 @@ const FooterComponent = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/delete" className="hover:text-green-400">
+                <Link href="/delete" className="hover:text-green-400">
                   Request to Delete Account
                 </Link>
               </li>
               <li>
-                <Link to="/policy" className="hover:text-green-400">
+                <Link href="/policy" className="hover:text-green-400">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link to="/policy" className="hover:text-green-400">
+                <Link href="/policy" className="hover:text-green-400">
                   Terms & Conditions
                 </Link>
               </li>
